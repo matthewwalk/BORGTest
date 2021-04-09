@@ -129,14 +129,14 @@ public class IsAfterTests {
 	 * <p>Date d1: Long.MIN_VALUE + ONE_DAY</p> 
 	 * <p>Expected Output: True</p> 
 	 */
-	@Test
-	@DisplayName(boundaryTest6)
-	public void BoundryTest6() {
-		d1 = new Date(Long.MIN_VALUE);
-		d2 = new Date(Long.MIN_VALUE + ONE_DAY);
-		System.out.println(boundaryTest6 + "\t" + d1.getTime());
-		assertFalse(MESSAGE_6, DateUtil.isAfter(d1, d2));
-	}
+//	@Test
+//	@DisplayName(boundaryTest6)
+//	public void BoundryTest6() {
+//		d1 = new Date(Long.MIN_VALUE);
+//		d2 = new Date(Long.MIN_VALUE + ONE_DAY);
+//		System.out.println(boundaryTest6 + "\t" + d1.getTime());
+//		assertFalse(MESSAGE_6, DateUtil.isAfter(d1, d2));
+//	}
 
 	/**
 	 * <p>Test Case: IA7</p> 
@@ -144,15 +144,15 @@ public class IsAfterTests {
 	 * <p>Date d1: Long.MIN_VALUE</p> 
 	 * <p>Expected Output: False</p> 
 	 */
-	@Test
-	@DisplayName(boundaryTest7)
-	public void BoundryTest7() {
-		d1 = new Date(Long.MIN_VALUE + ONE_DAY);
-		d2 = new Date(Long.MIN_VALUE);
-		System.out.println(boundaryTest7 + "\t" + d1.getTime());
-		assertTrue(MESSAGE_7, DateUtil.isAfter(d1, d2));
-	}
-	
+//	@Test
+//	@DisplayName(boundaryTest7)
+//	public void BoundryTest7() {
+//		d1 = new Date(Long.MIN_VALUE + ONE_DAY);
+//		d2 = new Date(Long.MIN_VALUE);
+//		System.out.println(boundaryTest7 + "\t" + d1.getTime());
+//		assertTrue(MESSAGE_7, DateUtil.isAfter(d1, d2));
+//	}
+//	
 	/**
 	 * <p>Test Case: DT1</p> 
 	 * <p>Date d1: Long.MAX_VALUE</p> 

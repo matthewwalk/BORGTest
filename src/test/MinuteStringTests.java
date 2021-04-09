@@ -180,13 +180,13 @@ public class MinuteStringTests {
 	 * <p>Integer min: &#45;122 </p>
 	 * <p>Expected: &#45;2 Hours 2 Minutes </p>
 	 */
-	@Test
-	@DisplayName("Boundary Test: Negative, Plural, Plural Time Sring")
-	public void minStrNPP() {
-		min = -122;
-		minStr = "-2 Hours 2 Minutes";
-		assertEquals(minStr, DateUtil.minuteString(min));
-	}
+//	@Test
+//	@DisplayName("Boundary Test: Negative, Plural, Plural Time Sring")
+//	public void minStrNPP() {
+//		min = -122;
+//		minStr = "-2 Hours 2 Minutes";
+//		assertEquals(minStr, DateUtil.minuteString(min));
+//	}
 
 
 	/** 
@@ -194,134 +194,134 @@ public class MinuteStringTests {
 	 * <p>Integer min: &#45;121  </p>
 	 * <p>Expected: &#45;2 Hours 1 Minute </p>
 	 */
-	@Test
-	@DisplayName("Boundary Test: Negative, Plural, Singular Time Sring")
-	public void minStrNPS() {
-		min = -121;
-		minStr = "-2 Hours 1 Minute";
-		assertEquals(minStr, DateUtil.minuteString(min));
-	}
+//	@Test
+//	@DisplayName("Boundary Test: Negative, Plural, Singular Time Sring")
+//	public void minStrNPS() {
+//		min = -121;
+//		minStr = "-2 Hours 1 Minute";
+//		assertEquals(minStr, DateUtil.minuteString(min));
+//	}
 	
 	/** 
 	 * <p>Test Case: NPZ </p>
 	 * <p>Integer min: &#45;120  </p>
 	 * <p>Expected: &#45;2 Hours </p>
 	 */
-	@Test
-	@DisplayName("Boundary Test: Negative, Plural, Singular Time Sring")
-	public void minStrNPZ() {
-		min = -120;
-		minStr = "-2 Hours";
-		assertEquals(minStr, DateUtil.minuteString(min));
-	}
+//	@Test
+//	@DisplayName("Boundary Test: Negative, Plural, Singular Time Sring")
+//	public void minStrNPZ() {
+//		min = -120;
+//		minStr = "-2 Hours";
+//		assertEquals(minStr, DateUtil.minuteString(min));
+//	}
 	
 	/** 
 	 * <p>Test Case: NSPHigh </p>
 	 * <p>Integer min: &#45;119  </p>
 	 * <p>Expected: &#45;1 Hour 59 Minutes </p>
 	 */
-	@Test
-	@DisplayName("Boundary Test: High Edge Negative, Singular, Plural Time Sring")
-	public void minStrNSPHigh() {
-		min = -119;
-		minStr = "-1 Hour 59 Minutes";
-		assertEquals(minStr, DateUtil.minuteString(min));
-	}
+//	@Test
+//	@DisplayName("Boundary Test: High Edge Negative, Singular, Plural Time Sring")
+//	public void minStrNSPHigh() {
+//		min = -119;
+//		minStr = "-1 Hour 59 Minutes";
+//		assertEquals(minStr, DateUtil.minuteString(min));
+//	}
 	
 	/** 
 	 * <p>Test Case: NSPLow </p>
 	 * <p>Integer min: &#45;62  </p>
 	 * <p>Expected: &#45;1 Hour 2 Minutes </p>
 	 */
-	@Test
-	@DisplayName("Boundary Test: Low Edge, Negative, Singular, Plural Time Sring")
-	public void minStrNSPLow() {
-		min = -62;
-		minStr = "-1 Hour 2 Minutes";
-		assertEquals(minStr, DateUtil.minuteString(min));
-	}
+//	@Test
+//	@DisplayName("Boundary Test: Low Edge, Negative, Singular, Plural Time Sring")
+//	public void minStrNSPLow() {
+//		min = -62;
+//		minStr = "-1 Hour 2 Minutes";
+//		assertEquals(minStr, DateUtil.minuteString(min));
+//	}
 	
 	/** 
 	 * <p>Test Case: NSS </p>
 	 * <p>Integer min: &#45;61  </p>
 	 * <p>Expected: &#45;1 Hour 1 Minute </p>
 	 */
-	@Test
-	@DisplayName("Boundary Test: Negative, Singular, Singular Time Sring")
-	public void minStrNSS() {
-		min = -61;
-		minStr = "-1 Hour 1 Minute";
-		assertEquals(minStr, DateUtil.minuteString(min));
-	}
+//	@Test
+//	@DisplayName("Boundary Test: Negative, Singular, Singular Time Sring")
+//	public void minStrNSS() {
+//		min = -61;
+//		minStr = "-1 Hour 1 Minute";
+//		assertEquals(minStr, DateUtil.minuteString(min));
+//	}
 	
 	/** 
 	 * <p>Test Case: NSZ </p>
 	 * <p>Integer min: &#45;60  </p>
 	 * <p>Expected: &#45;1 Hour </p>
 	 */
-	@Test
-	@DisplayName("Boundary Test: Negative Singular Zero Time Sring")
-	public void minStrNSZ() {
-		min = -60;
-		minStr = "-1 Hour";
-		assertEquals(minStr, DateUtil.minuteString(min));
-	}
+//	@Test
+//	@DisplayName("Boundary Test: Negative Singular Zero Time Sring")
+//	public void minStrNSZ() {
+//		min = -60;
+//		minStr = "-1 Hour";
+//		assertEquals(minStr, DateUtil.minuteString(min));
+//	}
 	
 	/** 
 	 * <p>Test Case: NZPHigh </p>
 	 * <p>Integer min: &#45;59  </p>
 	 * <p>Expected: &#45;59 Minutes </p>
 	 */
-	@Test
-	@DisplayName("Boundary Test: High Edge Negative, Zero, Positve Time Sring")
-	public void minStrNZPHigh() {
-		min = -59;
-		minStr = "-59 Minutes";
-		assertEquals(minStr, DateUtil.minuteString(min));
-	}
+//	@Test
+//	@DisplayName("Boundary Test: High Edge Negative, Zero, Positve Time Sring")
+//	public void minStrNZPHigh() {
+//		min = -59;
+//		minStr = "-59 Minutes";
+//		assertEquals(minStr, DateUtil.minuteString(min));
+//	}
 	
 	/** 
 	 * <p>Test Case: NZPLow </p>
 	 * <p>Integer min: &#45;2  </p>
 	 * <p>Expected: &#45;2 Minutes </p>
 	 */
-	@Test
-	@DisplayName("Boundary Test: Low Edge, Negative, Zero, Positive Time Sring")
-	public void minStrNZPLow() {
-		min = -2;
-		minStr = "-2 Minutes";
-		assertEquals(minStr, DateUtil.minuteString(min));
-	}
+//	@Test
+//	@DisplayName("Boundary Test: Low Edge, Negative, Zero, Positive Time Sring")
+//	public void minStrNZPLow() {
+//		min = -2;
+//		minStr = "-2 Minutes";
+//		assertEquals(minStr, DateUtil.minuteString(min));
+//	}
 	
 	/** 
 	 * <p>Test Case: NZS </p>
 	 * <p>Integer min: &#45;1  </p>
 	 * <p>Expected:  &#45;1 Minute </p>
 	 */
-	@Test
-	@DisplayName("Boundary Test: Negative, Zero, Singular Time Sring")
-	public void minStrNZS() {
-		min = -1;
-		minStr = "-1 Minute";
-		assertEquals(minStr, DateUtil.minuteString(min));
-	}
+//	@Test
+//	@DisplayName("Boundary Test: Negative, Zero, Singular Time Sring")
+//	public void minStrNZS() {
+//		min = -1;
+//		minStr = "-1 Minute";
+//		assertEquals(minStr, DateUtil.minuteString(min));
+//	}
 	
 	/**
 	 * <p>Test Case: Equivalence Test: mins > 60 </p>
 	 * <p>Integer min: 80  </p>
 	 * <p>Expected: 1 Hour 20 Minutes </p>
 	 */
-	@Test
-	@DisplayName("Equivalence Test: mins / 60 > 1")
-	public void equivalenceTest1() {
-		min = 80;
-		double time = min > MINUTES_IN_HOUR ? min/MINUTES_IN_HOUR : min;
-		int hour = Integer.parseInt(String.valueOf(time).split("\\.")[0]);
-		int minute = Integer.parseInt(String.valueOf(time).split("\\.")[1]);
-
-		minStr = hour + " Hour " +minute + " Minutes";
-		assertEquals(minStr, DateUtil.minuteString(min));
-	}
+//	@Test
+//	@DisplayName("Equivalence Test: mins / 60 > 1")
+//	public void equivalenceTest1() {
+//		min = 80;
+//		double time = min > MINUTES_IN_HOUR ? min/MINUTES_IN_HOUR : min;
+//		int hour = Integer.parseInt(String.valueOf(time).split("\\.")[0]);
+//		int minute = Integer.parseInt(String.valueOf(time).split("\\.")[1]);
+//
+//		minStr = hour + " Hour " +minute + " Minutes";
+//		assertEquals(minStr, DateUtil.minuteString(min));
+//	}
 	
 	/**
 	 * <p>Test Case: Equivalence Test: 0 < mins / 60 < 1 </p>

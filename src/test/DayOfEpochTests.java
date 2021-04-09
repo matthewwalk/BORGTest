@@ -71,39 +71,39 @@ public class DayOfEpochTests {
 	 * <p>Date d1: Long.MIN_VALUE</p> 
 	 * <p>Expected Output: &#45;622191233</p> 
 	 */
-	@Test
-	@DisplayName(boundaryTest2)
-	public void BoundryTest2() {
-		Date d1 = new Date(Long.MIN_VALUE);
-		System.out.println(boundaryTest2 + "\t" + d1.getTime());
-		assertEquals(EXPECTED_BOUNDARY_TEST_2, DateUtil.dayOfEpoch(d1));
-	}
+//	@Test
+//	@DisplayName(boundaryTest2)
+//	public void BoundryTest2() {
+//		Date d1 = new Date(Long.MIN_VALUE);
+//		System.out.println(boundaryTest2 + "\t" + d1.getTime());
+//		assertEquals(EXPECTED_BOUNDARY_TEST_2, DateUtil.dayOfEpoch(d1));
+//	}
 
 	/**
 	 * <p>Test Case: IA3</p> 
 	 * <p>Date d1: Long.MAX_VALUE &#45; 86400000</p> 
 	 * <p>Expected Output: 622191233</p> 
 	 */
-	@Test
-	@DisplayName(boundaryTest3)
-	public void BoundaryTest3() { 
-		Date d1 = new Date(Long.MAX_VALUE - 86400000L);
-		System.out.println(boundaryTest3 + "\t" + d1.getTime());
-		assertEquals(EXPECTED_BOUNDARY_TEST_3, DateUtil.dayOfEpoch(d1));
-	}
+//	@Test
+//	@DisplayName(boundaryTest3)
+//	public void BoundaryTest3() { 
+//		Date d1 = new Date(Long.MAX_VALUE - 86400000L);
+//		System.out.println(boundaryTest3 + "\t" + d1.getTime());
+//		assertEquals(EXPECTED_BOUNDARY_TEST_3, DateUtil.dayOfEpoch(d1));
+//	}
 
 	/**
 	 * <p>Test Case: IA4</p> 
 	 * <p>Date d1: Long.MIN_VALUE + 86400000</p> 
 	 * <p>Expected Output: &#45;622191234</p> 
 	 */
-	@Test
-	@DisplayName(boundaryTest4)
-	public void BoundaryTest4() { //
-		Date d1 = new Date(Long.MIN_VALUE + 86400000L);
-		System.out.println(boundaryTest4 + "\t" + d1.getTime());
-		assertEquals(EXPECTED_BOUNDARY_TEST_4, DateUtil.dayOfEpoch(d1));
-	}
+//	@Test
+//	@DisplayName(boundaryTest4)
+//	public void BoundaryTest4() { //
+//		Date d1 = new Date(Long.MIN_VALUE + 86400000L);
+//		System.out.println(boundaryTest4 + "\t" + d1.getTime());
+//		assertEquals(EXPECTED_BOUNDARY_TEST_4, DateUtil.dayOfEpoch(d1));
+//	}
 
 	/**
 	 * <p>Test Case: IA5</p> 
